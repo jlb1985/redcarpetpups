@@ -38,7 +38,7 @@ section {
   font-size: 17px;
   display: block;
   margin: 0px;
-  color: #4883ff;
+  color: #dc3546;
 }
 
 .section-heading h2 {
@@ -53,25 +53,25 @@ section {
 
 .blue-button a {
   display: inline-block;
-  background-color: #4883ff;
+  background-color: #dc3546;
   color: #fff;
   font-size: 15px;
   font-weight: 500;
   padding: 10px 16px;
   text-decoration: none;
-  border: 2px solid #4883ff;
+  border: 2px solid #dc3546;
   transition: all 0.5s;
 }
 
 .blue-button a:hover {
   background-color: transparent;
-  color: #4883ff;
+  color: #dc3546;
 }
 
 
 /* Header Style */
 
-.cf:before, 
+.cf:before,
 .cf:after {
   content: '';
   display: table;
@@ -112,18 +112,18 @@ section {
 }
 
 #primary-nav-button:hover {
-  background: rgba(0,0,0,0.05);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 #primary-nav-button.selected {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 #primary-nav-button:before {
   /* content: 'â˜°'; */
   content: '\2261';
   display: inline-block;
-  background-color: #4883ff;
+  background-color: #dc3546;
   font-size: 36px;
   font-style: normal;
   font-weight: normal;
@@ -138,6 +138,7 @@ section {
 
 #header .logo {
   float: left;
+  padding-top: 15px;
 }
 
 #header .logo img {
@@ -180,27 +181,27 @@ section {
   transition: all 0.5s;
 }
 
-#primary-nav li > a:hover,
-#primary-nav li.selected > a {
-  color: #4883ff;
+#primary-nav li>a:hover,
+#primary-nav li.selected>a {
+  color: #dc3546;
 }
 
 .sub-menu {
-  border-top: 3px solid #4883ff;
+  border-top: 3px solid #dc3546;
 }
 
 .sub-menu li a {
-  line-height: 50px!important;
-  font-size: 13px!important;
+  line-height: 50px !important;
+  font-size: 13px !important;
   color: #7a7a7a;
 }
 
 .downarrow {
-    background: none;
-    display: inline-block;
+  background: none;
+  display: inline-block;
   padding: 0;
-    text-align: center;
-    min-width: 3px;
+  text-align: center;
+  min-width: 3px;
 }
 
 .sub-menu .downarrow {
@@ -238,7 +239,7 @@ section {
 
 #primary-nav .sub-menu {
   background: #fff;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
   min-width: 160px;
   z-index: 200;
 }
@@ -277,13 +278,13 @@ section {
   border-bottom: 1px solid #ddd;
 }
 
-#primary-nav.mobile li:first-child  {
+#primary-nav.mobile li:first-child {
   width: 100%;
   margin: 0;
   border-top: 1px solid #ddd;
 }
 
-#primary-nav.mobile li.selected > a {
+#primary-nav.mobile li.selected>a {
   border-bottom: 1px solid #ddd;
 }
 
@@ -307,13 +308,14 @@ section {
 .mobile .downarrow,
 .mobile .sub-menu .downarrow {
   position: absolute;
-  top:42px;
+  top: 42px;
   right: 25px;
 }
 
 #primary-nav.mobile .sub-menu .downarrow:before {
   content: '\25be';
 }
+
 #primary-nav-button.mobile {
   display: inline-block;
 }
@@ -328,7 +330,7 @@ section.banner {
 }
 
 .banner {
-  background-image: url(../img/main_banner.jpg);
+  background-image: url(../img/topBanner1500.jpg);
   width: 100%;
   height: 100%;
   background-position: center;
@@ -343,7 +345,7 @@ section.banner {
 .banner .banner-caption .line-dec {
   width: 80px;
   height: 3px;
-  background-color: #4883ff;
+  background-color: #dc3546;
 }
 
 .banner .banner-caption h2 {
@@ -365,7 +367,7 @@ section.banner {
 }
 
 .banner .submit-form {
-  border-bottom: 5px solid #4883ff;
+  border-bottom: 5px solid #dc3546;
   background-color: #fff;
   padding: 15px;
 }
@@ -407,10 +409,11 @@ section.banner {
   box-shadow: none;
 }
 
-.submit-form input:focus{
+.submit-form input:focus {
   border-width: 0px;
-  outline:0; /* I have also tried outline:none */
-  -webkit-appearance:none;
+  outline: 0;
+  /* I have also tried outline:none */
+  -webkit-appearance: none;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -423,18 +426,18 @@ section.banner {
   text-align: center;
   display: inline-block;
   border-radius: 0px;
-  background-color: #4883ff;
+  background-color: #dc3546;
   font-size: 17px;
   letter-spacing: 0.5px;
   color: #fff;
   font-weight: 600;
-  border: 2px solid #4883ff;
+  border: 2px solid #dc3546;
   transition: all 0.5s;
 }
 
 .submit-form button:hover {
   background-color: transparent;
-  color: #4883ff;
+  color: #dc3546;
 }
 
 .popular-places .owl-nav {
@@ -446,17 +449,17 @@ section.banner {
   text-align: center;
 }
 
-.popular-places .owl-dots .owl-dot span  {
+.popular-places .owl-dots .owl-dot span {
   width: 12px;
   height: 12px;
-  background-color: #cdcdcd!important;
+  background-color: #cdcdcd !important;
   display: inline-block;
   border-radius: 50%;
   margin: 0 3px;
 }
 
 .popular-places .owl-dots .active span {
-  background-color: #4883ff!important;
+  background-color: #dc3546 !important;
 }
 
 .popular-places .owl-dots button {
@@ -519,7 +522,7 @@ section.banner {
 }
 
 .popular-places .popular-item .thumb .plus-button i:hover {
-  background-color: rgba(250,250,250,0.3);
+  background-color: rgba(250, 250, 250, 0.3);
 }
 
 
@@ -567,7 +570,7 @@ section.featured-places {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  background-color: #4883ff;
+  background-color: #dc3546;
   border-radius: 50%;
 }
 
@@ -589,7 +592,7 @@ section.featured-places {
 
 .featured-places .featured-item .down-content {
   background-color: #fff;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   padding: 20px 20px 0px 20px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -606,7 +609,7 @@ section.featured-places {
 .featured-places .featured-item .down-content span {
   display: block;
   font-size: 13px;
-  color: #4883ff;
+  color: #dc3546;
   margin-bottom: 15px;
 }
 
@@ -643,7 +646,7 @@ section.featured-places {
 }
 
 .featured-places .featured-item .down-content .text-button a:hover {
-  color: #4883ff;
+  color: #dc3546;
 }
 
 
@@ -669,11 +672,11 @@ section.our-services .service-item h4 {
 }
 
 .our-services .left-content h4 {
-  font-size:  19px;
-  font-weight:  600;
-  color:  #232323;
+  font-size: 19px;
+  font-weight: 600;
+  color: #232323;
   margin-top: 0px;
-  margin-bottom:  25px;
+  margin-bottom: 25px;
 }
 
 .our-services .left-content .blue-button {
@@ -685,18 +688,21 @@ section.our-services .service-item h4 {
   margin-top: 60px;
   padding-top: 60px;
 }
+
 .accordion li {
   position: relative;
 }
+
 .accordion li a {
   border: 1px solid #ddd;
 }
-.accordion li:last-child a {
-  
-}
+
+.accordion li:last-child a {}
+
 .accordion li p {
   display: none;
 }
+
 .accordion a {
   width: 100%;
   display: block;
@@ -709,6 +715,7 @@ section.our-services .service-item h4 {
   padding: 15px 20px;
   text-decoration: none;
 }
+
 .accordion a:after {
   width: 15px;
   height: 15px;
@@ -723,6 +730,7 @@ section.our-services .service-item h4 {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
 .accordion p {
   margin: 0px;
   padding: 20px;
@@ -730,7 +738,7 @@ section.our-services .service-item h4 {
 }
 
 a.active:after {
-  background-color: #4883ff;
+  background-color: #dc3546;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -742,7 +750,7 @@ section#video-container {
   margin-top: 80px;
 }
 
-#video-container  {
+#video-container {
   position: relative;
   width: 100%;
   height: 560px;
@@ -762,7 +770,7 @@ section#video-container {
 
 #video-container .video-overlay {
   z-index: 9999;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   width: 100%;
 }
 
@@ -808,7 +816,7 @@ section#video-container {
   text-align: center;
   line-height: 56px;
   color: #fff;
-  background-color: rgba(250,250,250,0.1);
+  background-color: rgba(250, 250, 250, 0.1);
   font-size: 18px;
   border: 3px solid #fff;
   border-radius: 50%;
@@ -825,7 +833,7 @@ section.pricing-tables .table-item {
 }
 
 section.pricing-tables .table-item .top-content {
-  background-color: #4883ff;
+  background-color: #dc3546;
   padding: 30px;
   color: #fff;
   border-top-right-radius: 10px;
@@ -849,7 +857,7 @@ section.pricing-tables .table-item .top-content h1 {
 }
 
 section.pricing-tables .table-item ul {
-  margin: 40px 0px!important;
+  margin: 40px 0px !important;
 }
 
 section.pricing-tables .table-item ul li {
@@ -865,7 +873,7 @@ section.pricing-tables .table-item ul li a {
 }
 
 section.pricing-tables .table-item ul li a:hover {
-  color: #4883ff;
+  color: #dc3546;
 }
 
 section.contact .section-heading {
@@ -880,23 +888,24 @@ section.contact .section-heading {
 /* Modal button */
 .modal-btn {
   display: inline-block;
-  background-color: #4883ff;
+  background-color: #dc3546;
   color: #fff;
   font-size: 15px;
   font-weight: 500;
   padding: 10px 16px;
   text-decoration: none;
-  border: 2px solid #4883ff;
+  border: 2px solid #dc3546;
   transition: all 0.5s;
 }
+
 .modal-btn:hover {
   background-color: transparent;
-  color: #4883ff;
+  color: #dc3546;
 }
 
 /* Modal */
 .modal {
-  background-color: rgba(0,0,0,.65);
+  background-color: rgba(0, 0, 0, .65);
   display: none;
   overflow: auto;
   position: fixed;
@@ -910,10 +919,28 @@ section.contact .section-heading {
   height: 100%;
 }
 
+.blogBtn {
+  display: inline-block;
+  background-color: #dc3546;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 16px;
+  text-decoration: none;
+  border: 2px solid #dc3546;
+  transition: all 0.5s;
+}
+
+.blogBtn:hover {
+  background-color: transparent;
+  color: #dc3546;
+}
+
 .modal-content .section-heading {
   text-align: left;
-  margin-top: 0px!important;
+  margin-top: 0px !important;
 }
+
 .modal-content .section-heading h2 {
   margin-top: 10px;
 }
@@ -957,24 +984,24 @@ section.contact .section-heading {
 
 .modal-content .left-content button {
   display: inline-block;
-  background-color: #4883ff;
+  background-color: #dc3546;
   color: #fff;
   font-size: 15px;
   font-weight: 500;
   padding: 10px 16px;
   text-decoration: none;
   border-radius: 0px;
-  border: 2px solid #4883ff;
+  border: 2px solid #dc3546;
   transition: all 0.5s;
 }
 
 .modal-content .left-content button:hover {
   background-color: transparent;
-  color: #4883ff;
+  color: #dc3546;
 }
 
 .modal-content .right-content {
-  background-color: #4883ff;
+  background-color: #dc3546;
   padding: 30px 30px 65px 30px;
   color: #fff;
 }
@@ -1020,14 +1047,17 @@ section.contact .section-heading {
   margin: 0 auto;
   background-color: #fff;
   background-color: #fff;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .modal-animated-in {
   animation: totop-in .3s ease;
 }
+
 .modal-animated-out {
   animation: totop-out .3s ease forwards;
 }
+
 .modal-content .close {
   position: absolute;
   right: -30px;
@@ -1039,14 +1069,14 @@ section.contact .section-heading {
   text-align: center;
   line-height: 60px;
   background-color: #fff;
-  color: #4883ff;
+  color: #dc3546;
   border-radius: 50%;
   opacity: 1;
 }
 
 .modal-content .close:hover {
   background-color: #fff;
-  color: #4883ff;
+  color: #dc3546;
 }
 
 /* Keyframes */
@@ -1055,10 +1085,11 @@ section.contact .section-heading {
     top: 600px;
     opacity: 0;
   }
+
   100% {
     top: 0;
     opacity: 1;
-  }  
+  }
 }
 
 @keyframes totop-out {
@@ -1066,10 +1097,11 @@ section.contact .section-heading {
     top: 0px;
     opacity: 1;
   }
+
   100% {
     top: -100%;
     opacity: 0;
-  }  
+  }
 }
 
 
@@ -1082,7 +1114,7 @@ footer {
 
 footer .footer-heading h4 {
   font-size: 21px;
-  color: #232323;
+  color: white;
   letter-spacing: 0.5px;
   margin-top: 15px;
   margin-bottom: 40px;
@@ -1102,7 +1134,7 @@ footer .about-veno ul li a {
   background-color: #cdcdcd;
   border-radius: 50%;
   font-size: 15px;
-  color: #fff;
+  color: white;
   margin-right: 3px;
   transition: all 0.5s;
 }
@@ -1112,7 +1144,7 @@ footer .about-veno p {
 }
 
 footer .about-veno ul li a:hover {
-  background-color: #4883ff;
+  background-color: #dc3546;
 }
 
 footer .useful-links ul li {
@@ -1121,18 +1153,18 @@ footer .useful-links ul li {
 
 footer .useful-links ul li a {
   font-size: 15px;
-  color: #7a7a7a;
+  color: white;
   letter-spacing: 0.5px;
   text-decoration: none;
   transition: all 0.5s;
 }
 
 footer .useful-links ul li a:hover {
-  color: #4883ff;
+  color: #dc3546;
 }
 
 footer .useful-links ul li i {
-  color: #4883ff;
+  color: #dc3546;
   font-size: 6px;
   position: relative;
   top: -3px;
@@ -1149,7 +1181,7 @@ footer .contact-info ul li {
 
 footer .contact-info ul li span {
   font-size: 13px;
-  color: #7a7a7a;
+  color: white;
   font-weight: 600;
   letter-spacing: 0.3px;
   width: 80px;
@@ -1158,7 +1190,7 @@ footer .contact-info ul li span {
 
 footer .contact-info ul li a {
   font-size: 13px;
-  color: #4883ff;
+  color: #dc3546;
   letter-spacing: 0.5px;
   text-decoration: none;
 }
@@ -1171,12 +1203,12 @@ footer .contact-info ul li a {
   margin-bottom: 0px;
   padding: 30px 0px;
   font-size: 15px;
-  color: #aaaaaa;
+  color: white;
 }
 
 .sub-footer a {
   text-decoration: none;
-  color: #4883ff;
+  color: #dc3546;
 }
 
 
@@ -1226,12 +1258,13 @@ footer .contact-info ul li a {
   .modal-content {
     width: 90%;
   }
+
   .modal-content .close {
     right: 50%;
     left: 50%;
     transform: translateX(-50%);
     top: -30px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
   }
 
   footer .useful-links {
@@ -1241,5 +1274,14 @@ footer .contact-info ul li a {
   footer .contact-info {
     margin-top: 60px;
   }
-  
+
+}
+
+footer {
+  background-image: url(../img/mountainDogFooter.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
