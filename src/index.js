@@ -7,11 +7,13 @@ const connectToMongoDB = async () => {
         console.log('connected to mongodb!')
 
         const user = {
-         email: 'test@email.com',
-         name: 'Layla',
-         password:'Password1!'
+         location: 'Phoenix, AZ',
+         name: 'Danmar  Pet Resort',
+         
 
         }
+
+      
 
         await new userSchema(user).save()
     } finally {
