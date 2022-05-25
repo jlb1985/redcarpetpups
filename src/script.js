@@ -8,3 +8,5 @@ console.log(breed);
 //Collect data from dropdownlist
 let category = document.querySelector('#category').value
 console.log(category);
+
+
