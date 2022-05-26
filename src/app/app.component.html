@@ -421,8 +421,10 @@
                              4. Copy only URL and paste it within the src="" field below
                       -->
 
+
         <iframe src="https://www.google.com/maps/d/embed?mid=1CX9CKSvywcT2vjcq7oSixo7-RQ1qUQzx&ehbc=2E312F" width="100%"
             height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
     </div>
     <div class="container" id="contact">
         <div class="col-md-10 col-md-offset-1">
@@ -448,32 +450,31 @@
                                             <h2>Let's have a discussion</h2>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <fieldset>
-                                            <input name="name" type="text" class="form-control" id="name"
-                                                placeholder="Your name..." required="">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <fieldset>
-                                            <input name="subject" type="text" class="form-control" id="subject"
-                                                placeholder="Subject..." required="">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <fieldset>
-                                            <textarea name="message" rows="6" class="form-control" id="message"
-                                                placeholder="Your message..." required=""></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="btn">Send Message</button>
-                                        </fieldset>
-                                    </div>
+                                    
+                                  
+                                  <!--add form-->
+                                    <form #messagesForm="ngForm" (ngSubmit)="onMessageForm(messagesForm.value)">
+                                      <label>Your name...</label>
+                                      <input type="text" name="yName" ngModel>
+
+                                      <label>Subject...</label>
+                                      <input type="text" name="sSubject" ngModel>
+
+
+                                      <label>Message...</label>
+                                      <input type="text" name="mMessage" ngModel>
+
+                                      <input type="submit" value="Add Message">
+
+
+                                    </form>
+                                    
+
+                                    
                                 </div>
                             </div>
                         </div>
+                    
                         <div class="col-md-4">
                             <div class="right-content">
                                 <div class="row">
