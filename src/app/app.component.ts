@@ -20,6 +20,10 @@ export class AppComponent implements OnInit{
   onMessagesFetch(){
     this.fetchMessages();
   }
+//create and send post request to server
+// with angular app
+//create and add some data in the database 
+//by sending an HTTP post request to the server
 
   onMessageForm(messages: {yName: string, sSubject: string, mMessage: string}){
     console.log(messages);
@@ -31,7 +35,9 @@ export class AppComponent implements OnInit{
       console.log(res);
     });
   }
-
+//fetch data from the server and display that 
+//data in the web application. To fetch data from the server I used GET request 
+//and to send a GET request to the server, I used of get() method of HttpClient.
   private fetchMessages(){
     this.http.get('https://redcarpetpups-eacb9-default-rtdb.firebaseio.com/messages.json')
     .pipe(map((res) => {
